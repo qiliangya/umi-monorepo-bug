@@ -1,6 +1,5 @@
 {
   "private": true,
-  "author": "Xujiamin <xujm@shushangyun.com>",
   "scripts": {
     "dev": "umi dev",
     "build": "umi build",
