@@ -6,14 +6,12 @@
   "scripts": {
     "dev": "umi dev",
     "build": "umi build",
-    "postinstall": "umi setup",
-    "setup": "umi setup",
     "start": "npm run dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "umi": "^4.0.7"
+    "umi": "4"
   }
 }

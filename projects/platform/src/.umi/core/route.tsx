@@ -5,9 +5,9 @@ import React from 'react';
 
 export async function getRoutes() {
   return {
-    routes: {},
+    routes: {"index":{"path":"/","id":"index","file":"index.tsx"}},
     routeComponents: {
-
+'index': React.lazy(() => import(/* webpackChunkName: "src__pages__index" */'../../../src/pages/index.tsx')),
 },
   };
 }
